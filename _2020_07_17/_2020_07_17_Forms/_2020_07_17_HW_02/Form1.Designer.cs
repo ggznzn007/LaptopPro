@@ -1,4 +1,4 @@
-﻿namespace _2020_07_17_HW_01
+﻿namespace _2020_07_17_HW_02
 {
     partial class Form1
     {
