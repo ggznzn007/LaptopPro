@@ -29,3 +29,12 @@ namespace _2020_07_24_HW_09
         }
     }
 }
+
+           /* Queue qu = new Queue();
+            int sum = 0;
+            for(int i = 1;i<=10;i++)
+            { qu.Enqueue(i); sum += i;}
+            while(qu.Count>0)
+            { Console.WriteLine("순서대로 출력 {0}", qu.Dequeue());}
+            Console.WriteLine();
+            Console.WriteLine("총 합은 {0}", sum);*/

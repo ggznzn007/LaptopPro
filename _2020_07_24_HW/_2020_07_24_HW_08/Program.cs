@@ -11,17 +11,22 @@ namespace _2020_07_24_HW_08
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[]{ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
-            Stack stack = new Stack(arr);
-            for (int i = 0; i < arr.Length; i++)
-            { Console.Write("{0} ", stack.Pop()); }
-            Console.WriteLine();
+            Stack st = new Stack();//스택 선언
+            for (int i = 1; i <= 10; i++)
+            { st.Push(i * 3);}//반복문으로 3의 배수 입력
+            while (st.Count > 0)
+            { Console.WriteLine(st.Pop());}//반복문으로 3의 배수 출력
         }
 
     }
 }
 
 
+/*int[] arr = new int[]{ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
+Stack stack = new Stack(arr);
+for (int i = 0; i < arr.Length; i++)
+{ Console.Write("{0} ", stack.Pop()); }
+Console.WriteLine();*/
 
 
 
